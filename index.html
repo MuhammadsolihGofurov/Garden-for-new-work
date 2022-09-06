@@ -1,0 +1,1668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style/plugins.css">
+
+
+    <!-- font -->
+    <link rel="stylesheet" href="font/OpenSans-Regular.ttf">
+    <!-- font -->
+
+    <!-- splide -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- splide -->
+
+    <!-- jquery -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <!-- jquery -->
+
+    <!-- animate.css -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- animate.css -->
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome -->
+
+    <!-- my style -->
+    <link rel="stylesheet" href="style/style.scss">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+    <!-- my style -->
+</head>
+<body>
+
+    <!-- loader -->
+    <div class="loader">
+        <div>
+            <img src="images/load.gif" alt="">
+        </div>
+    </div>
+    <!-- loader -->
+
+    <div class="site">
+
+        <!-- header -->
+        <div class="head">
+            <div class="container">
+                <div class="row  justify-content-center text-center">
+                    <div class="col-lg-6 col-12 ">
+                        <ul class="d-flex justify-content-lg-start justify-content-center">
+                            <li class="head_link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Facebook" >
+                                <a href="#" >
+                                    <i class="fab fa-facebook-f" ></i>
+                                </a>
+                            </li>
+                            <li class="head_link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter">
+                                <a href="#">
+                                    <i class="fab fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="head_link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Google Plus">
+                                <a href="#">
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <li class="head_link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Linkedin">
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                            <li class="head_link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Youtube">
+                                <a href="#">
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                            </li>
+                            <li class="head_link" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Pinterest">
+                                <a href="#">
+                                    <i class="fa-brands fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-12 head_social">
+                        <a href="tel:+998902915210">
+                            <i class="fa-solid fa-phone"></i>
+                            <span>+998902915210</span>
+                        </a>
+                        <a href="mailto:gofurovmuhammadsolih004@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>gofurovmuhammadsolih004@gmail.com</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header -->
+
+        <!-- navbar -->
+        <div class="nav_bar">
+            <div class="container">
+                <div class="nav_content row">
+
+                    <div class="col-lg-4 col-md-3 col-6">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="LOGO" class="logotip">
+                        </a>
+                    </div>
+
+                    <div class="col-6 bars_menu">
+                        <div class="bars">
+                            <i class="fa-solid fa-bars" id="open"></i>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-md-9 col-12 menu">
+                        <ul>
+                            <li class="nav_link" id="nav_1">
+                                <a  class="active">
+                                    Home
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <div class="dropdown_menu first_menu">
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-6 col-12">
+                                            <h6>Homepages</h6>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        Default Version
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Boxed Version
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Home Alternative
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Home Blogging
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Maintenance
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-12">
+                                            <h6>Blog Styles</h6>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        Blog Right Sidebar
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Blog Left Sidebar
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Blog Fullwidth
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Blog List Style
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Blog Single
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-12">
+                                            <h6>Gallery Styles</h6>
+                                            <ul>
+                                                <li>
+                                                    <a href="#">
+                                                        Gallery Version One
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Gallery Version Two
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Gallery Version Three
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Gallery Version Four
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">
+                                                        Gallery Version Masonry
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3 col-sm-6 col-12">
+                                            <h6>Subscribe Now</h6>
+                                            <form class="form">
+                                                <input type="text" placeholder="Full Name">
+                                                <input type="email" placeholder="Your Email">
+                                                <button class="subs_btn">
+                                                    Subscribe
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav_link part_link" id="nav_2">
+                                <a>
+                                    Pages
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <div class="dropdown_menu">
+                                    <ul>
+                                        <li class="part_hover">
+                                            <a >
+                                                Dropdown
+                                                <i class="fa-solid fa-angle-right"></i>
+                                            </a>
+
+                                            <div class="dropdown_part ">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#">
+                                                            Sub Menu 1
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Sub Menu 2
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Sub Menu 3
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">
+                                                            Sub Menu 4
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Team Members
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Testimonials
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Elements
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Not Found (404)
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Page Sidebar
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Page Fullwidth
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav_link part_link" id="nav_3">
+                                <a>
+                                    Shop
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </a>
+                                <div class="dropdown_menu">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                Shop Sidebar
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="pages/shop.html">
+                                                Shop Fullwidth
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Shop Single Fullwidth
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Shop Single Sidebar
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Shop Checkout
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                Shopping Cart
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="pages/about.html">
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a href="pages/service.html">
+                                    Services
+                                </a>
+                            </li>
+                            <li>
+                                <a href="pages/pricing.html">
+                                    Pricing
+                                </a>
+                            </li>
+                            <li>
+                                <a href="pages/blog.html">
+                                    Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a href="pages/contact.html">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- navbar -->
+
+        <!-- main -->
+        <div class="main">
+
+                <div class="slick_arrow_left">
+                    <i class="fa-solid fa-arrow-left"></i>
+                    <div>Garden</div>              
+                </div>
+
+                <div class="main-content">
+
+                    <div>
+                        <div class="splide__slide" style="background-image: url(images/slider-2.jpg);">
+                            <div class="container">
+                                <h1>
+                                    Dress Up Your Home for Sparkling Holidays
+                                </h1>
+                                <p>
+                                    Welcome to the Garden Shop
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div class="splide__slide" style="background-image: url(images/slider-1.jpg);">
+                            <div class="container">
+                                <h1>
+                                    A Great Theme For Garden Shop
+                                </h1>
+                                <p>
+                                    designing your dream garden
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="slick_arrow_right">
+                    <i class="fa-solid fa-arrow-right"></i>
+                    <div>Garden</div>
+                </div>
+
+        </div>
+        <!-- main -->
+
+        <!-- offer -->
+        <div class="offer">
+            <div class="container">
+
+                <div class="main_h1">
+                    <h1>
+                        What We Offer
+                    </h1>
+                    <p>
+                        Listed below four reasons to choose us!
+                    </p>
+                    <div class="shape_h1"></div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <img src="images/offer-1.png" alt="" class="img-fluid">
+                        <h2>Garden Watering Systems</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur elit. Curabitur euismod enim a metus adipiscing aliquam.
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <img src="images/offer-2.png" alt="" class="img-fluid">
+                        <h2>Preparing Landscape</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur elit. Curabitur euismod enim a metus adipiscing aliquam.
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <img src="images/offer-3.png" alt="" class="img-fluid">
+                        <h2>Garden Fence</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur elit. Curabitur euismod enim a metus adipiscing aliquam.
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <img src="images/offer-4.png" alt="" class="img-fluid">
+                        <h2>Garden Supplies</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur elit. Curabitur euismod enim a metus adipiscing aliquam.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="offer_slider">
+
+                    <div class="offer_prev">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </div>
+
+                    <div class="multiple-items">
+                        <div>
+                            <div class="slider_img">
+                                <img src="images/slick-1.jpg" alt="slider-1">
+                            </div>
+                            <div class="slider_text">
+                                <a href="services.html">
+                                    Pool Supplies
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slider_img">
+                                <img src="images/slick-2.jpg" alt="slider-1">
+                            </div>
+                            <div class="slider_text">
+                                <a href="services.html">
+                                    Tree Planting
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slider_img">
+                                <img src="images/slick-3.jpg" alt="slider-1">
+                            </div>
+                            <div class="slider_text">
+                                <a href="services.html">
+                                    Garden Supplies
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slider_img">
+                                <img src="images/slick-1.jpg" alt="slider-1">
+                            </div>
+                            <div class="slider_text">
+                                <a href="services.html">
+                                    Pool Supplies
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slider_img">
+                                <img src="images/slick-2.jpg" alt="slider-1">
+                            </div>
+                            <div class="slider_text">
+                                <a href="services.html">
+                                    Tree Planting
+                                </a>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="slider_img">
+                                <img src="images/slick-3.jpg" alt="slider-1">
+                            </div>
+                            <div class="slider_text">
+                                <a href="services.html">
+                                    Garden Supplies
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="offer_next">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+
+                
+                </div>
+
+            </div>
+        </div>
+        <!-- offer -->
+
+        <!-- team -->
+        <div class="team">
+            <div class="container">
+
+                <div class="main_h1">
+                    <h1>
+                        Our Team
+                    </h1>
+                    <p>
+                        Listed below our awesome team members!
+                    </p>
+                    <div class="shape_h1"></div>
+                </div>
+
+                <div class="teams row">
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="team_img">
+                            <img src="images/team-1.jpg" alt="team-1">
+                            <div class="team_social">
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-brands fa-google-plus-g"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team_text">
+                            <h3>Jonny DOE</h3>
+                            <p>
+                                Cras dapibus. Vivamus elementum semper Aenean vulementum semper Aenean vulputate eleifend tellus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="team_img">
+                            <img src="images/team-2.jpg" alt="team-1">
+                            <div class="team_social">
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-brands fa-google-plus-g"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team_text">
+                            <h3>Amanda DARKIL</h3>
+                            <p>
+                                Cras dapibus. Vivamus elementum semper Aenean vulementum semper Aenean vulputate eleifend tellus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="team_img">
+                            <img src="images/team-3.jpg" alt="team-1">
+                            <div class="team_social">
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-brands fa-google-plus-g"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team_text">
+                            <h3>Linda MERRY</h3>
+                            <p>
+                                Cras dapibus. Vivamus elementum semper Aenean vulementum semper Aenean vulputate eleifend tellus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="team_img">
+                            <img src="images/team-4.jpg" alt="team-1">
+                            <div class="team_social">
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-brands fa-google-plus-g"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team_text">
+                            <h3>Boby TYLON</h3>
+                            <p>
+                                Cras dapibus. Vivamus elementum semper Aenean vulementum semper Aenean vulputate eleifend tellus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- team -->
+
+        <!-- shopping -->
+        <div class="shopping">
+            <div class="container">
+
+                <div class="main_h1">
+                    <h1>
+                        Shopping
+                    </h1>
+                    <p>
+                        Listed below our awesome shop items!
+                    </p>
+                    <div class="shape_h1"></div>
+                </div>
+
+                <div class="teams shop row">
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="team_img">
+                            <img src="images/shop-1.jpg" alt="shop-1">
+                            <div class="team_social">
+                                <div>
+                                    <a href="pages/shop/shop-checkout.html">
+                                        <i class="fa-solid fa-basket-shopping"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="pages/shop/shop-single.html">
+                                        <i class="fa-solid fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team_text">
+                            <h3>
+                                <a href="pages/shop/shop-single.html">
+                                    Green Shovel 
+                                </a>
+                            </h3>
+                            <p>
+                                $21.00
+                            </p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span>(12)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="team_img">
+                            <img src="images/shop-2.jpg" alt="shop-1">
+                            <div class="team_social">
+                                <div>
+                                    <a href="pages/shop/shop-checkout.html">
+                                        <i class="fa-solid fa-basket-shopping"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="pages/shop/shop-single.html">
+                                        <i class="fa-solid fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team_text">
+                            <h3>
+                                <a href="pages/shop/shop-single.html">
+                                    Water Filling Cans
+                                </a>
+                            </h3>
+                            <p>
+                                $21.00
+                            </p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <span>(3)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="team_img">
+                            <img src="images/shop-3.jpg" alt="shop-1">
+                            <div class="team_social">
+                                <div>
+                                    <a href="pages/shop/shop-checkout.html">
+                                        <i class="fa-solid fa-basket-shopping"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="pages/shop/shop-single.html">
+                                        <i class="fa-solid fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team_text">
+                            <h3>
+                                <a href="pages/shop/shop-single.html">
+                                    Custom Yellow Pot
+                                </a>
+                            </h3>
+                            <p>
+                                $21.00
+                            </p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span>(6)</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-12">
+                        <div class="team_img">
+                            <img src="images/shop-4.jpg" alt="shop-1">
+                            <div class="team_social">
+                                <div>
+                                    <a href="pages/shop/shop-checkout.html">
+                                        <i class="fa-solid fa-basket-shopping"></i>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="pages/shop/shop-single.html">
+                                        <i class="fa-solid fa-link"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="team_text">
+                            <h3>
+                                <a href="pages/shop/shop-single.html">
+                                    Dual-Batch Compost Tumbler  
+                                </a>
+                            </h3>
+                            <p>
+                                $21.00
+                            </p>
+                            <div class="rating">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <span>(22)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- shopping -->
+
+        <!-- Testimonials -->
+        <div class="test">
+            <div class="container">
+
+                <div class="main_h1">
+                    <h1>
+                        Testimonials
+                    </h1>
+                    <p>
+                        Listed below our awesome vets and testimonials and clients!
+                    </p>
+                    <div class="shape_h1"></div>
+                </div>
+
+                <div class="tests row ">
+                    <div class="col-md-10   offset-md-1">
+
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <blockquote>
+
+                                    <div class="test_text">
+                                        <p>
+                                            Hi there, Lorem iam nonummy nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet.
+                                        </p>
+                                    </div>
+
+                                    <div class="test_name">
+                                        <div class="test_shape"></div>
+                                        <h6>Amanda corey</h6>
+                                    </div>
+
+                                    <div class="test_img ">
+                                        <img src="images/team-3.jpg"  alt="test">
+                                    </div>
+
+                                </blockquote>
+                            </div>
+                            <div class="col-sm-4">
+                                <blockquote>
+
+                                    <div class="test_text">
+                                        <p>
+                                            Hi there, Lorem iam nonummy nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet.
+                                        </p>
+                                    </div>
+
+                                    <div class="test_name">
+                                        <div class="test_shape"></div>
+                                        <h6>Factory nn (@facnnteam)</h6>
+                                    </div>
+
+                                    <div class="test_img ">
+                                        <img src="images/team-2.jpg"  alt="test">
+                                    </div>
+
+                                </blockquote>
+                            </div>
+                            <div class="col-sm-4">
+                                <blockquote>
+
+                                    <div class="test_text">
+                                        <p>
+                                            Hi there, Lorem iam nonummy nibh euismod tincidunt ut laoreet dolore Lorem ipsum dolor sit amet.
+                                        </p>
+                                    </div>
+
+                                    <div class="test_name">
+                                        <div class="test_shape"></div>
+                                        <h6>Big daniel mon</h6>
+                                    </div>
+
+                                    <div class="test_img ">
+                                        <img src="images/team-1.jpg"  alt="test">
+                                    </div>
+
+                                </blockquote>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- Testimonials -->
+
+        <!-- Purchase block-->
+        <div class="purchase" style="background-image: url(images/purchase-bg.jpg); ">
+            <div class="container">
+                
+                <div class="row">
+                    
+                    <div class="col-md-5 text-center">
+                        <img src="images/device.png" class="img-fluid"  alt="device">
+                    </div>
+
+                    <div class="col-md-7 text-end">
+                        <h1>Multipurpose Garden Template</h1>
+                        <p>
+                            Full access control of the background video effects, just play with buttons below! Letraset sheets containing Lorem Ipsum passages,
+                        </p>
+                        <div class="btn_group">
+                            <button class="btn_dark">
+                                Purchase Now
+                            </button>
+                            <button class="btn_dark">
+                                Read More
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- Purchase block-->
+
+        <!-- Pricing -->
+        <div class="pricing">
+            <div class="container">
+
+                <div class="main_h1">
+                    <h1>
+                        Our Plans & Pricings
+                    </h1>
+                    <p>
+                        Listed below our awesome plans
+                    </p>
+                    <div class="shape_h1"></div>
+                </div>
+
+                <div class="price row">
+
+                    <div class="col-sm-3">
+                        <div class="plan">
+
+                            <div class="top">
+                                <h1>Starter</h1>
+                            </div>
+
+                            <div class="price">
+                                <h2>
+                                    <span class="cost">$</span>
+                                    12
+                                </h2>
+                                <h4>
+                                    per serving
+                                </h4>
+                            </div>
+
+                            <ul class="list"> 
+                                <li>
+                                    <span>Garden</span>
+                                    Service
+                                </li>
+                                <li>
+                                    <span>Forest </span>
+                                    Planning
+                                </li>
+                                <li>
+                                    <span>Garden</span>
+                                    Party
+                                </li>
+                                <li>
+                                    <span>Preparing </span>
+                                    Landscape
+                                </li>
+                                <li>
+                                    <span>Garde </span>
+                                    Fence
+                                </li>
+                            </ul>
+
+                            <button class="btn_sign">
+                                Sign up
+                            </button>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="plan">
+
+                            <div class="top">
+                                <h1>Business</h1>
+                            </div>
+
+                            <div class="price">
+                                <h2>
+                                    <span class="cost">$</span>
+                                    24
+                                </h2>
+                                <h4>
+                                    per serving
+                                </h4>
+                            </div>
+
+                            <ul class="list"> 
+                                <li>
+                                    <span>Garden</span>
+                                    Service
+                                </li>
+                                <li>
+                                    <span>Forest </span>
+                                    Planning
+                                </li>
+                                <li>
+                                    <span>Garden</span>
+                                    Party
+                                </li>
+                                <li>
+                                    <span>Preparing </span>
+                                    Landscape
+                                </li>
+                                <li>
+                                    <span>Garde </span>
+                                    Fence
+                                </li>
+                            </ul>
+
+                            <button class="btn_sign">
+                                Sign up
+                            </button>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="plan">
+
+                            <div class="top">
+                                <h1>Premium</h1>
+                            </div>
+
+                            <div class="price">
+                                <h2>
+                                    <span class="cost">$</span>
+                                    48
+                                </h2>
+                                <h4>
+                                    per serving
+                                </h4>
+                            </div>
+
+                            <ul class="list"> 
+                                <li>
+                                    <span>Garden</span>
+                                    Service
+                                </li>
+                                <li>
+                                    <span>Forest </span>
+                                    Planning
+                                </li>
+                                <li>
+                                    <span>Garden</span>
+                                    Party
+                                </li>
+                                <li>
+                                    <span>Preparing </span>
+                                    Landscape
+                                </li>
+                                <li>
+                                    <span>Garde </span>
+                                    Fence
+                                </li>
+                            </ul>
+
+                            <button class="btn_sign">
+                                Sign up
+                            </button>
+
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div class="plan">
+
+                            <div class="top">
+                                <h1>Ultimate</h1>
+                            </div>
+
+                            <div class="price">
+                                <h2>
+                                    <span class="cost">$</span>
+                                    92
+                                </h2>
+                                <h4>
+                                    per serving
+                                </h4>
+                            </div>
+
+                            <ul class="list"> 
+                                <li>
+                                    <span>Garden</span>
+                                    Service
+                                </li>
+                                <li>
+                                    <span>Forest </span>
+                                    Planning
+                                </li>
+                                <li>
+                                    <span>Garden</span>
+                                    Party
+                                </li>
+                                <li>
+                                    <span>Preparing </span>
+                                    Landscape
+                                </li>
+                                <li>
+                                    <span>Garde </span>
+                                    Fence
+                                </li>
+                            </ul>
+
+                            <button class="btn_sign">
+                                Sign up
+                            </button>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- Pricing -->
+
+        <!-- Call -->
+        <div class="call" style="background-image: url(images/purchase-bg.jpg); ">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-12">
+                        <p>FOR ONLINE APPOINTMENT PLEASE CALL US TODAY</p>
+                        <div class="call-shape">
+                            <a href="tel:+998902915210">
+                                +90 291 52 10
+                            </a>
+                        </div>
+                        <p>ENVATO INC 22 ELIZABETH STR. MELBOURNE VICTORIA 8777. AUSTRALIA</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- Call -->
+
+        <!-- blog -->
+        <div class="blogs">
+            <div class="container">
+
+                <div class="main_h1">
+                    <h1>
+                        From the Blog
+                    </h1>
+                    <p>
+                        We shared best articles for garde lowers
+                    </p>
+                    <div class="shape_h1"></div>
+                </div>
+
+                <div class="blog_content row">
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="blog_wrapper">
+
+                            <a class="category_title" href="#" title="">GARDEN SUPPLIES</a>
+                            <div class="py-2 blog_title">
+                                <a href="pages/blog.html" title="">How to find best garden tools?</a>
+                            </div>
+
+                            <div class="blog_img">
+                                <a href="pages/blog.html" title="">
+                                    <img src="images/blog_1.jpg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+
+                            <div class="blog_component py-3">
+                                <span>
+                                    <i class="fa-solid fa-user"></i>
+                                    <a href="#">John</a>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-tag"></i>
+                                    <a href="#">Shop</a>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-comments"></i>
+                                    <a href="#">
+                                        <span>12</span>
+                                        Comments
+                                    </a>
+                                </span>
+                            </div>
+
+                            <div class="blog_text">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since theown printer took.
+                                </p>
+                                <a href="pages/blog.html" class="more_btn">
+                                    Read More
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="blog_wrapper">
+
+                            <a class="category_title" href="#" title="">GARDEN MARKETING</a>
+                            <div class="py-2 blog_title">
+                                <a href="pages/blog.html" title="">2015 Tips - Garden and Forest</a>
+                            </div>
+
+                            <div class="blog_img">
+                                <a href="pages/blog.html" title="">
+                                    <img src="images/blog_2.jpg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+
+                            <div class="blog_component py-3">
+                                <span>
+                                    <i class="fa-solid fa-user"></i>
+                                    <a href="#">John</a>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-tag"></i>
+                                    <a href="#">Shop</a>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-comments"></i>
+                                    <a href="#">
+                                        <span>12</span>
+                                        Comments
+                                    </a>
+                                </span>
+                            </div>
+
+                            <div class="blog_text">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since theown printer took.
+                                </p>
+                                <a href="pages/blog.html" class="more_btn">
+                                    Read More
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="blog_wrapper">
+
+                            <a class="category_title" href="#" title="">GARDEN SUPPLIES</a>
+                            <div class="py-2 blog_title">
+                                <a href="pages/blog.html" title="">Sand choice in Garden</a>
+                            </div>
+
+                            <div class="blog_img">
+                                <a href="pages/blog.html" title="">
+                                    <img src="images/blog_3.jpg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+
+                            <div class="blog_component py-3">
+                                <span>
+                                    <i class="fa-solid fa-user"></i>
+                                    <a href="#">John</a>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-tag"></i>
+                                    <a href="#">Shop</a>
+                                </span>
+                                <span>
+                                    <i class="fa-solid fa-comments"></i>
+                                    <a href="#">
+                                        <span>12</span>
+                                        Comments
+                                    </a>
+                                </span>
+                            </div>
+
+                            <div class="blog_text">
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since theown printer took.
+                                </p>
+                                <a href="pages/blog.html" class="more_btn">
+                                    Read More
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- blog -->
+
+
+        <!-- form -->
+        <div class="form_content">
+            <div class="container">
+
+                <div class="main_h1">
+                    <h1>
+                        Appointment Form
+                    </h1>
+                    <p>
+                        Let's appointment now with our custom form
+                    </p>
+                    <div class="shape_h1"></div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-8">
+
+                        <form class="form_post">
+                            <div class="row">
+                                <div class="col-md-6 datePos">
+                                    <input type="text" id="datepicker" placeholder="Appointment time">
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="Your full name*" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" placeholder="Phone number*" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="email" placeholder="Email Address*" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <select>
+                                        <option value="none">-- Select Gardener --</option>
+                                        <option value="1">Amanda JOE</option>
+                                        <option value="2">Mark Doe</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <select>
+                                        <option value="none">-- Select Service --</option>
+                                        <option value="1">Garden Watering</option>
+                                        <option value="2">Preparing Landscape</option>
+                                        <option value="3">Garden Fence</option>
+                                        <option value="4">Garden Supplies</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="send_btn">
+                                        Send Now
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="form_support">
+                            <ul>
+                                <li>
+                                    Weekdays
+                                    <span>9:00am - 7:00pm</span>
+                                </li>
+                                <li>
+                                    Weekend
+                                    <span>9:00am - 7:00pm</span>
+                                </li>
+                                <li>
+                                    Phone
+                                    <span>+998 90 291 52 10</span>
+                                </li>
+                                <li>
+                                    Fax
+                                    <span>+998 90 291 52 10</span>
+                                </li>
+                                <li>
+                                    E-Mail
+                                    <span>email@gmail.com</span>
+                                </li>
+                                <li>
+                                    Website
+                                    <span>yoursite.com</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+        <!-- form -->
+
+        <!-- footer -->
+        <div class="footer">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-3 col-sm-6">
+                        <h5>Recent posts</h5>
+                         <div class="col-blog row mb-3">
+                            <div class="col-6">
+                                <img src="images/blog_1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-6">
+                                <p>
+                                    <a href="pages/blog.html">
+                                        How to find best dog food?
+                                    </a>
+                                </p>
+                                <p>
+                                    06 May 2014
+                                </p>
+                            </div>
+                         </div>   
+                         <div class="col-blog row">
+                            <div class="col-6">
+                                <img src="images/blog_2.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-6">
+                                <p>
+                                    <a href="pages/blog.html">
+                                        How to find best dog food?
+                                    </a>
+                                </p>
+                                <p>
+                                    06 May 2014
+                                </p>
+                            </div>
+                         </div>   
+                    </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <h5>Twitter Feed</h5>
+                        <p class="footer_2">
+                            <a href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                                @Mark
+                            </a>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam.</span>
+                            <br>
+                            <i>2 hours ago</i>
+                        </p>
+                        <p class="footer_2">
+                            <a href="#">
+                                <i class="fa-brands fa-twitter"></i>
+                                @Mark
+                            </a>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lorem quam.</span>
+                            <br>
+                            <i>2 hours ago</i>
+                        </p>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 footer_3">
+                        <h5>Contact Details</h5>
+                        <div>
+                            <a href="#">
+                                <i class="fa-solid fa-link"></i>
+                                <span> www.yoursite.com</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span> info@yoursite.com</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>+90 123 45 67</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>+90 123 45 67</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <i class="fa-solid fa-house"></i>
+                                <span>Envato INC 22 Elizabeth Str 8777.</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3 col-sm-6 footer_3">
+                        <h5>Useful Links</h5>
+                        <div>
+                            <a href="index.html">
+                                Default Version
+                            </a>
+                        </div>
+                        <div>
+                            <a href="index.html">
+                                Boxed Version
+                            </a>
+                        </div>
+                        <div>
+                            <a href="index.html">
+                                Our Team Members
+                            </a>
+                        </div>
+                        <div>
+                            <a href="pages/about.html">
+                                About Us
+                            </a>
+                        </div>
+                        <div>
+                            <a href="pages/service.html">
+                                Our Services
+                            </a>
+                        </div>
+                        <div>
+                            <a href="pages/contact.html">
+                                Get In Touch
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- footer -->
+
+        <!-- footer bottom -->
+        <div class="foot_bottom">
+            <div class="container">
+
+                <div class="row justify-content-sm-center">
+
+                    <div class="col-md-6">
+                        <p>© 2015 WordPress Showcase Pty Ltd. By WordPress Showcase</p>
+                    </div>
+
+                    <div class="col-md-6 text-end">
+                        <a href="#">Terms Of Usage</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Sitemap</a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- footer bottom -->
+
+
+    </div>
+
+    <!-- btn -->
+    <button
+        type="button"
+        class="toTop pulse"
+        id="btn-back-to-top"
+    >
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    <!-- btn -->
+
+
+
+    
+
+
+
+    <script src="js/plugins.js"></script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+
+    <!-- jquery -->
+    <script src="js/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <!-- jquery -->
+
+    <!-- splide -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- splide -->
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
